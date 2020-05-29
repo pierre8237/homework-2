@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Bootstrap Basic Portfolio</title>
+
+    <!-- Boostrap Stylesheet/ CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- your own CSS stylesheet -->
+    <link rel="stylesheet" href="Homework-2MyOwnStylesheet.css">
+  </head>
+
+  <body class="index">
+    <!-- NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="contact.html">Contact</a>
+              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">linkedIn</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>    
+    <!-- Start of container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <p>Home/About</p>
+        </div>  
+        <div class="col-sm-4">
+          <p>Portfolio</p>
+        </div>  
+        <div class="col-sm-4">
+          <p>Contact</p>
+        </div>  
+      </div>
+    </div>
+    <br>
+    <!-- End of container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+        <h1 id="bioName">Pierre Calmels</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <h6>My name is Pierre. I was born in <a href=http://www.newmilford.org>New Milford, Connecticut"</a> on 11/11/1980. I like to hike, 
+          walk on empty beaches, and read works of fiction. I also like works in philosophy, and western history, 
+          particularly the ancients. I have an ever growing library, and an ever growing list of books I'd like to read. 
+          I plan to live long enough so I can get through most of them. In my time I've had some varied and interesting 
+          jobs. My most gainful employment has been as a bartender, working at some great places including;
+          <The Pequot Inn>, <The Mayflower Inn>, <The Roger Sherman Inn> <The Cobb's Mill Inn>, and <Le Chateau Restaurant>. 
+          My experiences at these places were formative and lasting. People have asked me for stories, but part of the job
+          is never telling too much! I can say that the high point of my career was serving a cat, water, from a monkey dish, 
+          at the downstairs bar of <Harry's New York Bar, Paris>! It was downhill from there. I also had temporary roles in the 
+          Legal Department of <UBS Investment Bank>, and also in their <Wealth Management Unit>, and once took seasonal employment 
+          as a package loader at <UPS>. One of my more interesting gigs was a summer job working for a movie catering company 
+          on such films as; <a href=https://www.imdb.com/title/tt0976238>Old Dogs</a>, <a href=https://www.imdb.com/title/tt0997047>College Road Trip</a>, and <Indiana Jones and the Cystal Skull>. While working there I saw the man
+          who would in nine years, become president of the <United States>, <Donald Trump>. There were many others who I will not 
+          name, but one thing I learned from each of these jobs is that some of the lowest positions offer the best perspectives. 
+          If you aren't important, you will often learn about things well above your pay grade, and usually, no one will care.  
+          Along the way I've gotten degrees from <Naugatuck Valley Community College> and <Ball State Unihversity> -- GO Cardinals! 
+          For the past three years while finishing my Bachelor's I have been driving an <Uber> through-out <Connecticut>. Out of necessity 
+          I learned how to fix my car, mostly from <You Tube> videos and then getting my hands and everything else, dirty. And in 
+          the past two months I have started learning to code, one of the most challenging things I have ever done, and 
+          I hope it will also be one of the most rewarding.
+          </h6>
+        </div>  
+      </div>
+      <div class="row">
+        <div class="col-sm-12"> 
+          <div class="containter">
+            <div class="row">
+              <div class="col-sm-12">
+                  <h4 id="myBuddies">My Buddies</h4>   
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">  
+          <div class="row">
+            <p id="wills">Wills</p>
+          </div>
+          <div class="row">
+            <p id="josie">Josie</p>
+          </div>
+        </div>        
+        <div class="col-sm-6">
+          <img id="superFriends" src="kitties.jpg" alt="Super-Friends!" class="img-fluid" alt="Responsive image">
+        </div>        
+      </div>
+    </div>
+    <!-- Start of footer -->
+    <footer class="footer">
+      <div class="container">      
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="two-toned-footer-color"></div>
+              <p class="text-muted text-muted-footer text-center">
+                &copy; Copyright
+              </p>
+            </div>
+          </div>
+        </div>    
+      </div>  
+    </footer>
+
+    <!-- End of footer -->
+
+    <!-- jQuery CDN/ (Bootstrap JS) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

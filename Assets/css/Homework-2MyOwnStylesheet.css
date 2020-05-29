@@ -1,0 +1,44 @@
+.index #myBuddies{
+    background-color:yellowgreen
+    }
+
+    
+}    
+
+.index #bioName{
+    background-color:rgb(72, 153, 234);
+}
+
+.index .two-toned-footer-color{
+    background-color: rgb(72, 153, 234);
+}
+
+.index #wills{
+    text-decoration-line: underline;
+    text-decoration-style: solid;  
+    border: 2px Solid yellowgreen;
+    color:rgb(72, 153, 234);
+}
+
+.index #josie{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    border: 2px Solid rgb(72, 153, 234);
+    color:yellowgreen;
+}
+ 
+.index #superFriends{
+    text-decoration-line: underline;
+    text-decoration-style: solid;  
+    border: 2px Solid yellowgreen;
+    color:rgb(72, 153, 234);
+}
+}
+
+.portfolio{
+
+}
+
+.contact{
+
+}
