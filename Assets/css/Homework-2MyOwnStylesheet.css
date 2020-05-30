@@ -1,12 +1,12 @@
 .index #myBuddies{
-    background-color:yellowgreen
+    background-color:yellowgreen;
+    color:rgb(72, 153, 234);
     }
-
     
-}    
 
 .index #bioName{
     background-color:rgb(72, 153, 234);
+    color:yellowgreen;
 }
 
 .index .two-toned-footer-color{
