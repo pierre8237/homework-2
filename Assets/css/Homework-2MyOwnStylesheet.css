@@ -14,6 +14,7 @@
 }
 
 .index #wills{
+    font-size: x-large;
     text-decoration-line: underline;
     text-decoration-style: solid;  
     border: 2px Solid yellowgreen;
@@ -21,6 +22,7 @@
 }
 
 .index #josie{
+    font-size: x-large;
     text-decoration-line: underline;
     text-decoration-style: solid;
     border: 2px Solid rgb(72, 153, 234);
@@ -41,4 +43,10 @@
 
 .contact{
 
+}
+
+
+
+.btn{
+    background-color:yellowgreen;
 }

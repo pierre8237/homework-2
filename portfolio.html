@@ -53,26 +53,34 @@
     <!-- Start of container -->
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          Home/About
+        <div class="col-md-1">
+          <input type="button" class="btn btn-info" value="About" onclick=" relocate_about()">
         </div>  
-        <div class="col-md-4">
-          Portfolio
+        <div class="col-md-1">
+          <input type="button" class="btn btn-info" value="Contact" onclick=" relocate_contact()">
         </div>  
-        <div class="col-md-4">
-          Contact 
-        </div>  
-        </div>
       </div>
     </div>
     <!-- End of container -->
-
+    <div class="container">
+      <div class="row">
+        <div class="col-fluid-6">
+          <img id="superFriends" src="Assets\images\Rainsford, William, Le Chateau in early 1970s.jpeg" alt="Le Chateau Restaurant" class="img-fluid" alt="Responsive image">
+          <img id="superFriends" src="Assets\images\CobbsMill_pewter_bar1.jpg" alt="Cobb's Mill Inn" class="img-fluid" alt="Responsive image">      
+        </div>
+      <div class="row">
+        <div class="col-md-6">    
+          <img id="superFriends" src="Assets\images\Harry'sNewYorkBar.jpg" alt="Harry's New York Bar" class="img-fluid" alt="Responsive image">  
+          
+        </div>
+      </div>  
+    </div>      
     <!-- Start of footer -->
-    <footer class="footer">
+    <footer class="fixed-bottom">
       <div class="container">      
         <div class="row">
           <div class="col-md-12">
-            <div class="two-toned-footer-color"></div>
+            <div class="two-toned-footer-color">
               <p class="text-muted text-muted-footer text-center">
                 &copy; Copyright
               </p>
@@ -83,7 +91,18 @@
     </footer>
 
     <!-- End of footer -->
-
+    <script>
+      function relocate_about()
+      {
+           location.href = "index.html";
+      } 
+      
+      function relocate_contact()
+      {
+           location.href = "contact.html";
+      } 
+    </script>
+    
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

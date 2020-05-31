@@ -53,15 +53,12 @@
     <!-- Start of container -->
     <div class="container">
       <div class="row">
-        <div class="col-sm-4">
-          Home/About
-        </div>  
-        <div class="col-sm-4">
-          Portfolio
-        </div>  
-        <div class="col-sm-4">
-          Contact
-        </div>  
+        <div class="col-sm-1">
+          <input type="button" class="btn btn-info" value="Contact" onclick=" relocate_contact()">
+        </div>
+        <div class="col-sm-1">
+          <input type="button" class="btn btn-info" value="Portfolio" onclick=" relocate_portfolio()">
+        </div>    
       </div>
     </div>
     <br>
@@ -75,24 +72,21 @@
       <div class="container">
         <div class="row">
           <h6>My name is Pierre. I was born in <a href=http://www.newmilford.org>New Milford, Connecticut"</a> on 11/11/1980.  
-          I like to hike, walk on empty beaches, and read works of fiction. I also like works in philosophy, and western history, 
-          particularly the ancients. I have an ever growing library, and an ever growing list of books I'd like to read. 
-          I plan to live long enough so I can get through most of them. In my time I've had some varied and interesting 
-          jobs. My most gainful employment has been as a bartender, working at some great places including;
-          <image src=ThePequotInn.jfif>The Pequot Inn</image>, <The Mayflower Inn>, <The Roger Sherman Inn> <The Cobb's Mill Inn>, and <Le Chateau Restaurant>. 
-          My experiences at these places were formative and lasting. People have asked me for stories, but part of the job
-          is never telling too much! I can say that the high point of my career was serving a cat, water, from a monkey dish, 
-          at the downstairs bar of <Harry's New York Bar, Paris>! It was downhill from there. I also had temporary roles in the 
-          Legal Department of <UBS Investment Bank>, and also in their <Wealth Management Unit>, and once took seasonal employment 
-          as a package loader at <UPS>. One of my more interesting gigs was a summer job working for a movie catering company 
+          I like to hike, walk on empty beaches, and read fiction. I also like works in history, and some philosophy. I have an ever growing library, and an ever growing list of books I'd like to read. 
+          I hope to live long enough so I can get through most of them. My employment history consists of some varied and interesting experinces.
+          My most gainful employment thus far has been as a bartender, working at some great places including;
+          The Pequot Inn, The Mayflower Inn, The Roger Sherman Inn, The Cobb's Mill Inn, and Le Chateau Restaurant. 
+          My experiences at these places were formative and lasting. People have asked me for stories, but part of the bartending job
+          is never disclosing too much. I'd choose serving a cat, water, from a monkey dish at the downstairs bar of Harry's New York Bar, Paris as the high point of my restaurant career! 
+          It was downhill from there. I also had temporary roles in the Legal Department of UBS Investment Bank, and also in their Wealth Management Unit, and once took seasonal employment
+          as a package loader at UPS. One of my more interesting gigs was a summer job working for a movie catering company 
           on such films as; <a href=https://www.imdb.com/title/tt0976238>Old Dogs</a>, <a href=https://www.imdb.com/title/tt0997047>
-          College Road Trip</a>, and <a href=https://www.imdb.com/title/tt0367882>Indiana Jones and the Cystal Skull</a>. 
-          While working there I saw the man who would in nine years, become president of the <United States>, <Donald Trump>. 
-          There were many others who I will not name, but one thing I learned from each of these jobs is that some of the lowest 
-          positions offer the best perspectives. If you aren't important, you will often learn about things well above your pay grade, 
-          and usually, no one will care. Along the way I've gotten degrees from <a href=https://www.nv.edu>Naugatuck Valley Community College</a> 
-          and <a href=https://www.bsu.edu>Ball State University</a> -- GO Cardinals! For the past three years while finishing my 
-          Bachelor's I have been driving an <a href=https://www.uber.com>Uber</a> through-out <a href=https://en.wikipedia.org/wiki/Connecticut>Connecticut</a>.
+          College Road Trip</a>, and <a href=https://www.imdb.com/title/tt0367882>Indiana Jones and the Cystal Skull</a>. One thing I learned 
+          from each of these jobs is that some of the lowest positions offer the best perspectives. If you aren't important, you will often learn about things 
+          well above your pay grade, and usually, no one will care. So, maybe I have gotten to see relatively little, because a bar room is pretty small. But I also saw somethings in great detail, 
+          some strange, some scary, some great. albeit without many experiences from outside to contrast from. Thankfully though, along the way I got degrees from <a href=https://www.nv.edu>Naugatuck Valley Community College</a> 
+          and <a href=https://www.bsu.edu>Ball State University</a> -- GO Cardinals! For the past three years while finishing my Bachelor's I have been driving an
+          <a href=https://www.uber.com>Uber</a> through-out <a href=https://en.wikipedia.org/wiki/Connecticut>Connecticut</a>.
           Out of necessity I learned how to fix my car, mostly from <a href=https://www.youtube.com/watch?v=opXtBLtcu14>You Tube</a> 
           videos and then getting my hands and everything else, dirty. And in the past two months I have started learning to code, one of the most challenging things 
           I have ever done, and I hope it will also be one of the most rewarding.
@@ -126,11 +120,11 @@
       </div>
     </div>
     <!-- Start of footer -->
-    <footer class="footer">
+    <footer class="fixed-bottom">
       <div class="container">      
         <div class="row">
           <div class="col-sm-12">
-            <div class="two-toned-footer-color"></div>
+            <div class="two-toned-footer-color">
               <p class="text-muted text-muted-footer text-center">
                 &copy; Copyright
               </p>
@@ -141,7 +135,17 @@
     </footer>
 
     <!-- End of footer -->
-
+    <script>
+      function relocate_portfolio()
+      {
+           location.href = "portfolio.html";
+      } 
+      
+      function relocate_contact()
+      {
+           location.href = "contact.html";
+      } 
+    </script>
     <!-- jQuery CDN/ (Bootstrap JS) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

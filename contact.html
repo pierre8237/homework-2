@@ -53,27 +53,42 @@
     <!-- Start of container -->
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-fluid-1">
+          <input type="button" class="btn btn-info" value="About" onclick=" relocate_about()">
+        </div>  
+        <div class="col-fluid-1">
+          <input type="button" class="btn btn-info" value="Portfolio" onclick=" relocate_portfolio()">
+        </div>  
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-fluid-12">
           <p>Email: 
             <p>pierrechristiancalmels@gmail.com</p>
           </p>
         </div>  
-        <div class="col-md-6">
-          <p>Snail Mail:</p> 
-          <p>P.O. Box 173</p>
-          <p>South Britain, Conn.</p>
-          <p>06487</p>     
+      </div>
+    <br>
+      <div class="row">  
+        <div class="col-fluid-12">
+          <p>Snail Mail: 
+            <p>P.O. Box 173</p>
+            <p>South Britain, Conn.</p>
+            <p>06487</p>
+          </p>    
         </div>  
       </div>
     </div>
     <!-- End of container -->
 
     <!-- Start of footer -->
-    <footer class="footer">
+    <footer class="fixed-bottom">
       <div class="container">      
         <div class="row">
           <div class="col-md-12">
-            <div class="two-toned-footer-color"></div>
+            <div class="two-toned-footer-color">
               <p class="text-muted text-muted-footer text-center">
                 &copy; Copyright
               </p>
@@ -84,6 +99,17 @@
     </footer>
 
     <!-- End of footer -->
+    <script>
+      function relocate_about()
+      {
+           location.href = "index.html";
+      } 
+      
+      function relocate_portfolio()
+      {
+           location.href = "portfolio.html";
+      } 
+    </script>
 
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
